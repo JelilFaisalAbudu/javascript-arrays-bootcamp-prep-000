@@ -14,6 +14,7 @@ function addElementToEndOfArray(array, element) {
   return [...array, element];
 }
 
+<<<<<<< HEAD
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
   return array;
@@ -42,3 +43,9 @@ function removeElementFromEndOfArray(array) {
   return array.slice(0, array.length - 1);
 }
 
+=======
+destructivelyAddElementToEndOfArray(array, element) {
+  array = [...array, element];
+  return array;
+}
+>>>>>>> 72142112e7ab3a0a516a225345fa1918ab770e45
